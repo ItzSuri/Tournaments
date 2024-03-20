@@ -1,0 +1,19 @@
+name: Tournament
+version: 1.0.0
+description: A Minecraft plugin for managing tournaments and pre-built maps.
+author: ItzSuri
+main: com.itzsuri.main.Tournaments
+api-version: 1.20
+commands:
+  tcreate:
+    description: Create a new tournament.
+    usage: /tcreate <Name> <Description> <Date and Time> <Award>
+    executor: com.godspunky.tournament.TournamentCommand
+  useprebuiltmap:
+    description: Teleport to the pre-built map for your tournament.
+    usage: /useprebuiltmap
+    executor: com.godspunky.tournament.UsePrebuiltMapCommand
+  upbm:
+    description: Teleport to the pre-built map for your tournament.
+    usage: /upbm
+    executor: com.godspunky.tournament.UsePrebuiltMapCommand

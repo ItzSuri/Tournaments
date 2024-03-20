@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Tournaments:jar">
+    <output-path>$PROJECT_DIR$/../../Server/plugins</output-path>
+    <root id="archive" name="Tournaments.jar">
+      <element id="module-output" name="Tournaments" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot-api-1.20.4-R0.1-20240312.093700-95 (1).jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
